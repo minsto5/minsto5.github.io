@@ -1,7 +1,7 @@
 <head>
     <title>mObywatel</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/card.css?v=1.2">
+    <link rel="stylesheet" href="assets/confidentcard.css">
     <link rel="stylesheet" href="assets/main.css">
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/U7TRg0V.png">
     <link rel="apple-touch-icon" href="https://i.imgur.com/U7TRg0V.png">
@@ -16,7 +16,7 @@
             <img src="https://i.imgur.com/K6tek85.png" class="back_img">
             <p onclick="sendTo('home')" class="back_text">Wróć</p>
         </div>
-        <p class="title_text">mDowód</p>
+        <p class="title_text">mKarta stałego Konfidenta</p>
         <img src="https://i.imgur.com/C9VjlIn.png" class="help_img">
     </div>
 
@@ -46,34 +46,15 @@
     </div>
     <p class="time_text" id="time"></p>
     <div class="id_image_data">
-        <img draggable="false" class="id_image" src="https://i.imgur.com/Ssv8rps.jpeg">
+        <img draggable="false" class="id_image" src="https://i.imgur.com/be4S1z9.png">
         <div class="inset">
 
         </div>
-        <div class="id_own_image" style="background-image: url('https://i.imgur.com/7vHo48p.jpg');"></div>
-        <img draggable="false" src="https://i.imgur.com/I7oPp72.gif" class="flag_video">
-        <img draggable="false" src="https://i.imgur.com/EbBJWYb.gif" class="eagle_video">
-        <p class="eagle_text">Rzeczpospolita<br>Polska</p>
+        <div class="id_own_image"></div>
         <div class="id_data_grid">
             <div class="data_holder">
                 <p class="data_title firstname" id="name"></p>
-                <p class="data_value">Imię (imiona)</p>
-            </div>
-            <div class="data_holder">
-                <p class="data_title surname" id="surname"></p>
-                <p class="data_value">Nazwisko</p>
-            </div>
-            <div class="data_holder">
-                <p class="data_title" id="nationality"></p>
-                <p class="data_value">Obywatelstwo</p>
-            </div>
-            <div class="data_holder">
-                <p class="data_title" id="birthday"></p>
-                <p class="data_value">Data urodzenia</p>
-            </div>
-            <div class="data_holder">
-                <p class="data_title" id="pesel"></p>
-                <p class="data_value">Numer PESEL</p>
+
             </div>
         </div>
     </div>
@@ -98,14 +79,14 @@
           <div class="icon-circle">
             <img src="https://i.imgur.com/nnwjv9l.png" alt="Dowód">
           </div>
-          <span>Dane&nbsp;dowodu<br>osobistego</span>
+          <span>Dane&nbsp;karty<br>konfidenta</span>
         </button>
       
         <button onclick="sendTo('pesel')">
             <div class="icon-circle">
               <img src="https://i.imgur.com/r1I1hLF.png" alt="PESEL">
             </div>
-            <span>Zastrzeż PESEL</span>
+            <span>Zastrzeż<br>KARTE</span>
           </button>
           
       
@@ -113,7 +94,7 @@
           <div class="icon-circle">
             <img src="https://i.imgur.com/TtnWLcm.png" alt="Więcej">
           </div>
-          <span>Pozostałe skróty</span>
+          <span>Znajdź<br>komisariat</span>
         </button>
       </div>
             
@@ -121,7 +102,7 @@
                 <div class="field">
                     <label>Seria i numer</label>
                     <div class="value-copy">
-                        <b style="font-size:23px">MWYC 24561</b>
+                        <b style="font-size:23px">MWYC 112997</b>
                         <button class="value-copy">Kopiuj</button> 
                     </div>
                 </div>
@@ -137,56 +118,17 @@
                 </div>
             
                 <div class="field">
-                    <label>Imię ojca</label>
-                    <strong>Maciej</strong>
+                    <label>Potrawa dnia</label>
+                    <strong>Makowiec</strong>
                 </div>
             
                 <div class="field">
-                    <label>Imię matki</label>
-                    <strong>Ewa</strong>
+                    <label>Komenda</label>
+                    <strong>Komenda Rejonowa Policji Warszawa I</strong>
                 </div>
             </div>
             
-        <div class="bottom_holder info_holder">
-            <div class="bottom_grid">
-                <p class="bottom_text" style="color: #1f2125; margin-left: 0px;">Twoje dodatkowe dane</p>
-            </div>
-            <img class="action_arrow" src="https://i.imgur.com/lTxuUMF.png">
-            <div class="additional_holder">
-                <div class="additional_grid">
-                    <p class="additional_title">Nazwisko rodowe</p>
-                    <p class="additional_subtitle" id="familyName"></p>
-                </div>
-                <div class="additional_grid">
-                    <p class="additional_title">Płeć</p>
-                    <p class="additional_subtitle" id="sex"></p>
-                </div>
-                <div class="additional_grid">
-                    <p class="additional_title">Nazwisko rodowe ojca</p>
-                    <p class="additional_subtitle" id="fathersFamilyName"></p>
-                </div>
-                <div class="additional_grid">
-                    <p class="additional_title">Nazwisko rodowe matki</p>
-                    <p class="additional_subtitle" id="mothersFamilyName"></p>
-                </div>
-                <div class="additional_grid">
-                    <p class="additional_title">Miejsce urodzenia</p>
-                    <p class="additional_subtitle" id="birthPlace"></p>
-                </div>
-                <div class="additional_grid">
-                    <p class="additional_title">Kraj urodzenia</p>
-                    <p class="additional_subtitle" id="countryOfBirth"></p>
-                </div>
-                <div class="additional_grid">
-                    <p class="additional_title">Adres zameldowania na pobyt stały</p>
-                    <p class="additional_subtitle" id="adress"></p>
-                </div>
-                <div class="additional_grid" style="border-bottom: none;">
-                    <p class="additional_title">Data zameldowania na pobyt stały</p>
-                    <p class="additional_subtitle home_date"></p>
-                </div>
-            </div>
-        </div>
+    
         <div class="bottom_holder" style="height: 90px; margin-bottom: 120px;">
             <div class="bottom_update">
                 <div class="bottom_update_grid">

@@ -86,12 +86,11 @@ body .bottom_bar{
 
 .id_data_grid{
     position: absolute;
-    top: 18px;
-    left: 50%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-auto-flow: row;
-    grid-auto-rows: 70px;
+    top: 72%;
+    left: 23%;
+    width: 35%;
+    height: 42%;
+    z-index: 0;
 }
 
 .data_value{
@@ -200,6 +199,8 @@ body .bottom_bar{
     top: 5%;
     left: 7.5%;
     width: 35%;
+    margin-left: 12px;
+    margin-top: 40px;
     border-radius: 15px;
     height: 42%;
     z-index: 1;
@@ -215,6 +216,8 @@ body .bottom_bar{
     position: absolute;
     top: 5%;
     left: 7.5%;
+    margin-left: 12px;
+    margin-top: 40px;
     width: 35%;
     border-radius: 15px;
     height: 42%;
@@ -506,13 +509,6 @@ body .bottom_bar{
     font-weight: 600;
 }
 
-.card_1{
-    background-image: url('https://i.imgur.com/07ktkye.png');
-}
-
-.card_2{
-    background-image: url('https://i.imgur.com/uowv4a7.png');
-}
 
 .page_other .confirm_title{
     margin-left: 0;
@@ -668,5 +664,6 @@ body .bottom_bar{
 .value-copy button:hover {
     background-color: #dbeaf9;
 }
+
 
 
