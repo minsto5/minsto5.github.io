@@ -197,8 +197,8 @@ body .bottom_bar{
     box-shadow: inset 0px 0px 20px white;
     background-color: transparent;
     position: absolute;
-    top: 5%;
-    left: 7.5%;
+    top: 8%;
+    left: 10%;
     width: 35%;
     border-radius: 15px;
     height: 42%;
@@ -213,8 +213,8 @@ body .bottom_bar{
     filter: grayscale(1);
     box-shadow: 0px 0px 5px white;
     position: absolute;
-    top: 5%;
-    left: 7.5%;
+    top: 8%;
+    left: 10%;
     width: 35%;
     border-radius: 15px;
     height: 42%;

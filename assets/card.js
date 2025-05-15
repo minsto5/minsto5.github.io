@@ -97,6 +97,7 @@ if (sex === "m"){
 }
 
 setData("name", data['name'].toUpperCase());
+setData("nickname", data['nickname'].toUpperCase());
 setData("surname", data['surname'].toUpperCase());
 setData("nationality", data['nationality'].toUpperCase());
 setData("birthday", birthday);
